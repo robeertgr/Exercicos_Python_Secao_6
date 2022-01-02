@@ -7,5 +7,5 @@ num = int(input("Digite um número impar: "))
 while num % 2 == 0:
     num = int(input("Número não é impar. Digite um número ímpar: "))
 if num % 2 != 0:
-    for count in range(num, -1, -2):
+    for count in range(num, 0, -2):
         print(count)
